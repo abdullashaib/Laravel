@@ -25,7 +25,7 @@ class CourseController extends Controller
 	  * Display a listing of courses.
 	  *
 	  * @return Response Array
-	  */
+    */
     public function index() {
       
       $courses = Course::all();
