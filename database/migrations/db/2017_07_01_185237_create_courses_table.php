@@ -17,7 +17,6 @@ class CreateCoursesTable extends Migration
             $table->increments('id');
             $table->string('course_name');
             $table->string('description');
-            $table->integer('teacher_id')->unsigned()->index();
             $table->timestamps();
         });
     }
