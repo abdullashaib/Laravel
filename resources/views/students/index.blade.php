@@ -22,7 +22,7 @@
         
         <tr> 
           <td> {{ $i }} </td>
-          <td><a href="/students/{{ $student->id }}">{{ $student->firstname . " " . $student->lastname }}</a></td>
+          <td><a href="/students/{{ $student->id }}">{{ $student->fullname }}</a></td>
           <td>{{ $student->gender }}</td>
           <td>{{ $student->datebirth }}</td>
           <td>{{ $student->healthcardnumber . " " . $student->version_code }}</td>

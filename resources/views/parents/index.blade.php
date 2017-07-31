@@ -22,7 +22,7 @@
          <?php $total+= $parent->monthly_payment; ?> 
         <tr> 
           <td> {{ $i }} </td>
-          <td><a href="/parents/{{ $parent->id }}/edit">{{ $parent->firstname . " " . $parent->lastname}}</a></td>
+          <td><a href="/parents/{{ $parent->id }}/edit">{{ $parent->fullname}}</a></td>
           <td> {{ $parent->address . ", " . $parent->city . " " . $parent->province}}</td>
           <td>{{ $parent->phone_number }}</td>
           <td>${{ $parent->monthly_payment }}</td>
